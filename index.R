@@ -3,8 +3,8 @@ library(ggplot2)
 library(plotly)
 library(DT)
 library(readxl)
-
-data_cuaca <- read_excel("C:/Users/Sarjana Komedi/Documents/DataCuaca.xlsx")
+# untuk lokasi data cuaca sesuaikan dengan path data cuaca di simpan 
+data_cuaca <- read_excel("DataCuaca.xlsx")
 
 ui <- fluidPage(
   titlePanel("Aplikasi Interaktif Visualisasi Data Cuaca"),
